@@ -8,7 +8,7 @@ input[type="radio"] {
 html, body {
   font-family: Mandali, Arial, sans-serif;
   font-size: 16px;
-  background-color: #312c63f0;
+  background-color: white;
 }
 
 .center {
@@ -133,8 +133,8 @@ input[id*='-6-o']:checked ~ #board #tile-6 div::before,
 input[id*='-7-o']:checked ~ #board #tile-7 div::before,
 input[id*='-8-o']:checked ~ #board #tile-8 div::before {
   content: "O";
-  background: #9a3881;
-  color: #ffc7b5;
+  background: #2445d8;
+  color: #80ffdd;
 }
 
 .tile label:hover {
@@ -241,8 +241,8 @@ input[id*='-8-o']:checked ~ #board #tile-8 div::before {
 }
 
 #message input {
-  background: #000;
-  color: #fff;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 1rem;
   padding: 0.5rem 1.75rem;
   margin: auto auto;
